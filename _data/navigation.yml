@@ -1,0 +1,9 @@
+main:
+  - title: "Archives"
+    url: /archives/
+  - title: "Code"
+    url: https://github.com/JonnieCache
+  - title: "Music"
+    url: http://unmode.com
+  - title: "Contact"
+    url: mailto:jonnie@cleverna.me
