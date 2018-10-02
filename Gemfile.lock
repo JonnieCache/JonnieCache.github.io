@@ -185,6 +185,9 @@ GEM
     jekyll-theme-time-machine (0.1.1)
       jekyll (~> 3.5)
       jekyll-seo-tag (~> 2.0)
+    jekyll-thumb (0.1.2)
+      jekyll (> 2)
+      ruby-vips
     jekyll-titles-from-headings (0.5.1)
       jekyll (~> 3.3)
     jekyll-watch (2.0.0)
@@ -220,6 +223,8 @@ GEM
     rouge (2.2.1)
     ruby-enum (0.7.2)
       i18n
+    ruby-vips (2.0.13)
+      ffi (~> 1.9)
     ruby_dep (1.5.0)
     rubyzip (1.2.2)
     safe_yaml (1.0.4)
@@ -247,6 +252,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-compose
+  jekyll-thumb
 
 BUNDLED WITH
-   1.16.2
+   1.16.5
