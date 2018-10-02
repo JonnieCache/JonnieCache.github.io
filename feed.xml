@@ -3,10 +3,10 @@
   <generator uri="http://jekyllrb.com" version="3.7.4">Jekyll</generator>
   
   
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2018-10-02T15:23:38+01:00</updated>
-  <id>http://localhost:4000//</id>
+  <link href="http://cleverna.me/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://cleverna.me/" rel="alternate" type="text/html" />
+  <updated>2018-10-02T15:41:48+01:00</updated>
+  <id>http://cleverna.me//</id>
 
   
     <title type="html">Clever Name</title>
@@ -25,12 +25,12 @@
       <title type="html">FML</title>
       
       
-      <link href="http://localhost:4000/2018/05/10/FML/" rel="alternate" type="text/html" title="FML" />
+      <link href="http://cleverna.me/2018/05/10/FML/" rel="alternate" type="text/html" title="FML" />
       
       <published>2018-05-10T15:16:00+01:00</published>
       <updated>2018-05-10T15:16:00+01:00</updated>
-      <id>http://localhost:4000/2018/05/10/FML</id>
-      <content type="html" xml:base="http://localhost:4000/2018/05/10/FML/">&lt;p class=&quot;center&quot;&gt;&lt;a href=&quot;http://fml.cleverna.me&quot;&gt;&lt;img src=&quot;/assets/img/fml_logo.jpg&quot; alt=&quot;FML&quot; title=&quot;FML aka Fix My Life&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <id>http://cleverna.me/2018/05/10/FML</id>
+      <content type="html" xml:base="http://cleverna.me/2018/05/10/FML/">&lt;p class=&quot;center&quot;&gt;&lt;a href=&quot;http://fml.cleverna.me&quot;&gt;&lt;img src=&quot;/assets/img/fml_logo.jpg&quot; alt=&quot;FML&quot; title=&quot;FML aka Fix My Life&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p class=&quot;center nomargin center nomargin&quot;&gt;&lt;sub&gt;&lt;sup&gt;&lt;em&gt;aka&lt;/em&gt;&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
 &lt;h4 class=&quot;center nomargin&quot; id=&quot;fix-my-life&quot;&gt;&lt;a href=&quot;http://fml.cleverna.me&quot;&gt;Fix My Life&lt;/a&gt;&lt;/h4&gt;
@@ -112,12 +112,12 @@ The amount of points needed to fill the meter is specified in terms on the &lt;c
       <title type="html">TinyCI</title>
       
       
-      <link href="http://localhost:4000/2018/05/09/TinyCI/" rel="alternate" type="text/html" title="TinyCI" />
+      <link href="http://cleverna.me/2018/05/09/TinyCI/" rel="alternate" type="text/html" title="TinyCI" />
       
       <published>2018-05-09T11:39:55+01:00</published>
       <updated>2018-05-09T11:39:55+01:00</updated>
-      <id>http://localhost:4000/2018/05/09/TinyCI</id>
-      <content type="html" xml:base="http://localhost:4000/2018/05/09/TinyCI/">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; _____ _               _____  _____
+      <id>http://cleverna.me/2018/05/09/TinyCI</id>
+      <content type="html" xml:base="http://cleverna.me/2018/05/09/TinyCI/">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; _____ _               _____  _____
 /__   (_)_ __  _   _  / ___/ /_  _/
    | || | '_ \| | | |/ /     / /
    | || | | | | |_| / /___/\/ /_  
