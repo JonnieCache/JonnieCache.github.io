@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <generator uri="http://jekyllrb.com" version="3.7.4">Jekyll</generator>
+  
+  
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2018-10-02T15:23:38+01:00</updated>
+  <id>http://localhost:4000//</id>
+
+  
+    <title type="html">Clever Name</title>
+  
+
+  
+    <subtitle>Clever Name</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      
+      <title type="html">FML</title>
+      
+      
+      <link href="http://localhost:4000/2018/05/10/FML/" rel="alternate" type="text/html" title="FML" />
+      
+      <published>2018-05-10T15:16:00+01:00</published>
+      <updated>2018-05-10T15:16:00+01:00</updated>
+      <id>http://localhost:4000/2018/05/10/FML</id>
+      <content type="html" xml:base="http://localhost:4000/2018/05/10/FML/">&lt;p class=&quot;center&quot;&gt;&lt;a href=&quot;http://fml.cleverna.me&quot;&gt;&lt;img src=&quot;/assets/img/fml_logo.jpg&quot; alt=&quot;FML&quot; title=&quot;FML aka Fix My Life&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p class=&quot;center nomargin center nomargin&quot;&gt;&lt;sub&gt;&lt;sup&gt;&lt;em&gt;aka&lt;/em&gt;&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;h4 class=&quot;center nomargin&quot; id=&quot;fix-my-life&quot;&gt;&lt;a href=&quot;http://fml.cleverna.me&quot;&gt;Fix My Life&lt;/a&gt;&lt;/h4&gt;
+&lt;p class=&quot;center nomargin&quot;&gt;&lt;sub&gt;&lt;sup&gt;&lt;em&gt;aka&lt;/em&gt;&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;h5 class=&quot;center&quot; id=&quot;yet-another-todo-app-but-with-points&quot;&gt;Yet Another Todo App (but with points)&lt;/h5&gt;
+
+&lt;p&gt;FML is an app in which you assign yourself tasks to do, and assign various point values to them. You log the completions of the tasks, and clock up a running total of points. In other words, it’s a standard task tracking app with elements of gamification. It also has an ugly purple color scheme. &lt;a href=&quot;http://fml.cleverna.me&quot;&gt;You can sign up and use it here.&lt;/a&gt; &lt;a href=&quot;https://github.com/JonnieCache/FML&quot;&gt;The source code is available here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+  &lt;a href=&quot;/assets/img/fml_screenshots/fml_screenshot_1.png&quot; target=&quot;_blank&quot; class=&quot;thumb&quot;&gt;&lt;img src=&quot;/assets/img/fml_screenshots/fml_screenshot_1-360w.png&quot; width=&quot;360&quot; height=&quot;270&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/assets/img/fml_screenshots/fml_screenshot_2.png&quot; target=&quot;_blank&quot; class=&quot;thumb&quot;&gt;&lt;img src=&quot;/assets/img/fml_screenshots/fml_screenshot_2-360w.png&quot; width=&quot;360&quot; height=&quot;270&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;The motivation for this was playing games like Rimworld, where you have stewardship over a number of characters and you have to achieve various aims, while simultaneously keeping them happy, defined in terms of a number of “needs,” eg. food, rest, comfort etc. This model, which was first established in The Sims, places a lot of emphasis on milking as much productivity out of the day/night cycle while keeping these needs satisfied to a minimum level so your charges don’t fall apart.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+  &lt;a href=&quot;/assets/img/rimworld_screenshot.png&quot; target=&quot;_blank&quot; class=&quot;thumb&quot;&gt;&lt;img src=&quot;/assets/img/rimworld_screenshot-337w.png&quot; height=&quot;200&quot; width=&quot;337&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/assets/img/sims_screenshot.jpg&quot; target=&quot;_blank&quot; class=&quot;thumb&quot;&gt;&lt;img src=&quot;/assets/img/sims_screenshot-266w.jpg&quot; height=&quot;200&quot; width=&quot;266&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I know what you’re thinking: this sounds like a perfect metaphor for the treadmill which is my life under capitalism. Those games are set up in such a way that you’re compelled to optimize the use of time within the day in pursuit of maximum efficiency, and that this process becomes a lot of fun.&lt;/p&gt;
+
+&lt;p&gt;I’m sure you can see where this is going: “What if my real life were like that?” Hell yeah, let’s build a skinner box around ourselves. At least it’s open source.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-it-works&quot;&gt;How it works&lt;/h4&gt;
+
+&lt;p&gt;You create a new task by clicking the &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; button in the top right. This presents the usual kind of form, here you can fill in a name, the points value of the task, select if it should be recurring or not, and assign to it a tag. This control will also let you define a new tag.&lt;/p&gt;
+
+&lt;p&gt;Upon clicking &lt;code class=&quot;highlighter-rouge&quot;&gt;Save&lt;/code&gt;, a card representing the task is added to the main interface, and if a Tag was chosen, an empty “meter” for that tag will appear at the top of the page. Click the &lt;code class=&quot;highlighter-rouge&quot;&gt;Complete!&lt;/code&gt; button for your newly minted task, and you will see points added to your total, shown in the top right of your page. You will also see a glowing pink “ghost” of the points value escaping from where you clicked, much like in an RPG game, and you will hear a pleasing sound effect. This is designed to add to the dopamine reward, skyrocketing your productivity and motivation.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot; style=&quot;align-items: flex-start&quot;&gt;
+  &lt;div style=&quot;text-align: right&quot;&gt;
+    &lt;p&gt;There's also a Sublime Text/Atom style autocomplete interface for quickly completing tasks, accessible by pressing Space.&lt;/p&gt;
+    
+    &lt;p&gt;Type to search, use the arrow keys to select a result, and hit enter to complete the task.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  &lt;a href=&quot;/assets/img/fml_screenshots/fml_screenshot_3.png&quot; target=&quot;_blank&quot; class=&quot;thumb&quot;&gt;&lt;img src=&quot;/assets/img/fml_screenshots/fml_screenshot_3-400w.png&quot; width=&quot;400&quot; height=&quot;300&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You will also, assuming it is there, see the meter at the top fill up with an amount proportional to the points value assigned to the task. To set how many points the meter requires in order to be filled, click the tag icon on the side of the task card. This will bring up a form for editing the tag, where you can set the name, the colour and aditionally hide the meter.
+The amount of points needed to fill the meter is specified in terms on the &lt;code class=&quot;highlighter-rouge&quot;&gt;goal per week.&lt;/code&gt; So if the GPW of a tag is 10 and you have completed a 1 point task with that tag 3 times in the last 7 days, the meter will be sitting at 30%. Note that this is a rolling 7 day window and it does not tick over every monday morning.&lt;/p&gt;
+
+&lt;p&gt;Finally, after completing your first task you will see the &lt;code class=&quot;highlighter-rouge&quot;&gt;Combo&lt;/code&gt; value in the top right of the page tick up to &lt;code class=&quot;highlighter-rouge&quot;&gt;2x&lt;/code&gt;. This means that any subsequent tasks completed will earn twice their value, in the manner of a classic fighting game. The crucial point is that this value will reset to zero if a day passes without any tasks being completed, motivating you to continue your streak. If you complete tasks every day for a number of weeks, the points awarded will increase geometrically, elevating your score to the stratosphere.&lt;/p&gt;
+
+&lt;h4 id=&quot;design&quot;&gt;Design&lt;/h4&gt;
+
+&lt;p&gt;FML is developed in Ruby and React. The ruby end is fairly conventional, but the react side is built with a homemade design in place of tools like redux or react-router. This was done as an exercize to become more intimately familiar with that workflow, and ultimately served as an education in why those tools exist.&lt;/p&gt;
+
+&lt;p&gt;A full explanation of the design can be found in the &lt;a href=&quot;https://github.com/JonnieCache/FML&quot;&gt;README over at the github repo.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once again, a running instance of the app is available at &lt;a href=&quot;http://fml.cleverna.me&quot;&gt;http://fml.cleverna.me&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+        <summary type="html">aka Fix My Life aka Yet Another Todo App (but with points) FML is an app in which you assign yourself tasks to do, and assign various point values to them. You log the completions of the tasks, and clock up a running total of points. In other words, it’s a standard task tracking app with elements of gamification. It also has an ugly purple color scheme. You can sign up and use it here. The source code is available here.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">TinyCI</title>
+      
+      
+      <link href="http://localhost:4000/2018/05/09/TinyCI/" rel="alternate" type="text/html" title="TinyCI" />
+      
+      <published>2018-05-09T11:39:55+01:00</published>
+      <updated>2018-05-09T11:39:55+01:00</updated>
+      <id>http://localhost:4000/2018/05/09/TinyCI</id>
+      <content type="html" xml:base="http://localhost:4000/2018/05/09/TinyCI/">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; _____ _               _____  _____
+/__   (_)_ __  _   _  / ___/ /_  _/
+   | || | '_ \| | | |/ /     / /
+   | || | | | | |_| / /___/\/ /_  
+   |_||_|_| |_|\__, \____/\____/
+               |___/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/JonnieCache/tinyci&quot;&gt;TinyCI&lt;/a&gt; is basically a git hook that builds your project and runs your tests when you push a new commit. It’s pitched as a CI system, so a competitor to enormous systems like &lt;a href=&quot;https://circleci.com&quot;&gt;Circle&lt;/a&gt; and &lt;a href=&quot;travis-ci.org&quot;&gt;Travis&lt;/a&gt;. Really though, its much more along the lines of directory watcher scripts like &lt;a href=&quot;https://github.com/guard/guard&quot;&gt;Guard&lt;/a&gt; which people use to automatically run their tests whenever they save their files locally.&lt;/p&gt;
+
+&lt;p&gt;For a full exploration of the architecture and limitations, please see the &lt;a href=&quot;https://github.com/JonnieCache/tinyci&quot;&gt;project’s README.&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Usually, this leads to the tests being run on a constant rotation, especially if you have your editor set up to automatically save files when it loses focus. This is all good: test early and often as they say. However, eventually you get to the stage of writing heavy integration tests that take a long time to execute, and consume significant resources.&lt;/p&gt;
+
+&lt;p&gt;My solution was to exclude the integration tests from my autotester, and to write TinyCI as a sort of autotester for the repo.&lt;/p&gt;
+
+&lt;p&gt;This provides several benefits:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Heavier tests are only run when I commit, every half hour or so. This seems more appropriate than every 10 seconds when I write the files out to disk.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;They can be run on a different machine than the underpowered ultraportable you probably use for development these days.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can conveniently run them in a different environment. I run mine on a linux VPS, because this allows me to execute the tests in the same containers as they’re deployed in. I can’t do that at all on my dev machine, because I’m allergic to upgrading OSX and as such I don’t have the hypervisor.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Why not use a proper CI system? I tried that, but they’re all enormous, hulking things designed for the enterprise. Seriously, look into running your own instance of Travis sometime. Even they advise against it. It would take longer to set the damn thing up than it takes to write most personal projects.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;TinyCI is written in ruby. It executes as a &lt;code class=&quot;highlighter-rouge&quot;&gt;post-update&lt;/code&gt; hook, and when it runs it looks for all untested commits in the repo. For each of these, in order of commit time, it exports the tree and runs a build script and then a test script, referenced in a config file found in the tree itself. The commit is then tagged with “success” or “failure” using the little-used &lt;a href=&quot;https://git-scm.com/docs/git-notes&quot;&gt;git-notes&lt;/a&gt; functionality.&lt;/p&gt;
+
+&lt;p&gt;Once again, for a full exploration of the architecture and limitations, please see the &lt;a href=&quot;https://github.com/JonnieCache/tinyci&quot;&gt;project’s README.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Please let me know of any questions or comments you might have! Hope you find it useful!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+
+      
+        <category term="code" />
+      
+        <category term="project" />
+      
+
+      
+
+      
+        <summary type="html">_____ _ _____ _____ /__ (_)_ __ _ _ / ___/ /_ _/ | || | '_ \| | | |/ / / / | || | | | | |_| / /___/\/ /_ |_||_|_| |_|\__, \____/\____/ |___/ TinyCI is basically a git hook that builds your project and runs your tests when you push a new commit. It’s pitched as a CI system, so a competitor to enormous systems like Circle and Travis. Really though, its much more along the lines of directory watcher scripts like Guard which people use to automatically run their tests whenever they save their files locally. For a full exploration of the architecture and limitations, please see the project’s README.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+</feed>
