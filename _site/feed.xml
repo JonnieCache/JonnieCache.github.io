@@ -5,7 +5,7 @@
   
   <link href="http://cleverna.me/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://cleverna.me/" rel="alternate" type="text/html" />
-  <updated>2018-10-02T15:41:48+01:00</updated>
+  <updated>2018-10-02T15:57:46+01:00</updated>
   <id>http://cleverna.me//</id>
 
   
@@ -37,7 +37,7 @@
 &lt;p class=&quot;center nomargin&quot;&gt;&lt;sub&gt;&lt;sup&gt;&lt;em&gt;aka&lt;/em&gt;&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
 &lt;h5 class=&quot;center&quot; id=&quot;yet-another-todo-app-but-with-points&quot;&gt;Yet Another Todo App (but with points)&lt;/h5&gt;
 
-&lt;p&gt;FML is an app in which you assign yourself tasks to do, and assign various point values to them. You log the completions of the tasks, and clock up a running total of points. In other words, it’s a standard task tracking app with elements of gamification. It also has an ugly purple color scheme. &lt;a href=&quot;http://fml.cleverna.me&quot;&gt;You can sign up and use it here.&lt;/a&gt; &lt;a href=&quot;https://github.com/JonnieCache/FML&quot;&gt;The source code is available here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;FML is an app in which you give yourself tasks to do, and assign various point values to them. You log the completions of the tasks, and clock up a running total of points. In other words, it’s a standard task tracking app with elements of gamification. It also has an ugly purple color scheme. &lt;a href=&quot;http://fml.cleverna.me&quot;&gt;You can sign up and use it here.&lt;/a&gt; &lt;a href=&quot;https://github.com/JonnieCache/FML&quot;&gt;The source code is available here.&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;gallery&quot;&gt;
   &lt;a href=&quot;/assets/img/fml_screenshots/fml_screenshot_1.png&quot; target=&quot;_blank&quot; class=&quot;thumb&quot;&gt;&lt;img src=&quot;/assets/img/fml_screenshots/fml_screenshot_1-360w.png&quot; width=&quot;360&quot; height=&quot;270&quot; /&gt;&lt;/a&gt;
@@ -98,7 +98,7 @@ The amount of points needed to fill the meter is specified in terms on the &lt;c
       
 
       
-        <summary type="html">aka Fix My Life aka Yet Another Todo App (but with points) FML is an app in which you assign yourself tasks to do, and assign various point values to them. You log the completions of the tasks, and clock up a running total of points. In other words, it’s a standard task tracking app with elements of gamification. It also has an ugly purple color scheme. You can sign up and use it here. The source code is available here.</summary>
+        <summary type="html">aka Fix My Life aka Yet Another Todo App (but with points) FML is an app in which you give yourself tasks to do, and assign various point values to them. You log the completions of the tasks, and clock up a running total of points. In other words, it’s a standard task tracking app with elements of gamification. It also has an ugly purple color scheme. You can sign up and use it here. The source code is available here.</summary>
       
 
       
