@@ -8,4 +8,4 @@ A simple jekyll plugin to generate image thumbnails using [libvips](https://jcup
   
 Simple stuff, but all the existing plugins were tied to imagemagick, which I hope to leave behind.
   
-[Source code here](https://github.com/JonnieCache/jekyll-thumb), [RubyGem here](https://rubygems.org/gems/jekyll-thumb).
+[Source code/README here](https://github.com/JonnieCache/jekyll-thumb), [RubyGem here](https://rubygems.org/gems/jekyll-thumb).
