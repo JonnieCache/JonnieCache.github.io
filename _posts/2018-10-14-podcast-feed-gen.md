@@ -4,7 +4,7 @@ title: podcast_feed_gen
 date: 2018-10-14 21:06 +0100
 ---
 
-A simple CLI app for generating podcast RSS feeds from a directory of files. Similar to [dropcaster](https://github.com/nerab/dropcaster) but much simpler, and it supports a wide variety of audio formats instead of just MP3.
+A small CLI app for generating podcast RSS feeds from a directory of files. Similar to [dropcaster](https://github.com/nerab/dropcaster) but much simpler, and it supports a wide variety of audio formats instead of just MP3.
 
 [Source/README here](https://github.com/JonnieCache/podcast_feed_gen)
 
