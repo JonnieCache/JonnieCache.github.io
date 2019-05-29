@@ -2,7 +2,7 @@ main:
   - title: "Archives"
     url: /archives/
   - title: "Code"
-    url: https://github.com/JonnieCache
+    url: /code
   - title: "Music"
     url: http://unmode.com
   - title: "Contact"
