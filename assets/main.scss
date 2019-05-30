@@ -1,6 +1,6 @@
 ---
 ---
-
+$content-width: 960px;
 @import "whiteglass";
 
 body {
@@ -16,40 +16,23 @@ body {
 }
 
 
-.grid {  
-  display: flex;
-  // margin: -1em 0 0 -1em;
-  flex-basis: content;
-  flex-grow: 0;
-  flex-shrink: 0;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: -1em;
-  align-items: center;
-  text-align: center;
-  flex-basis: content;
-
-  a, img, div {
-    flex: 1;
-  }
-}
-
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 15px;    
+  grid-template-columns: repeat(auto-fill, 254px);
+  grid-gap: 15px;
+  justify-content: center;
 }
 
 .card {
   text-align: center;
+  width: 254px;
   
   img {
     margin-bottom: 10px;
     border-radius: 10px;
     width: 254px;
     height: 102px;
-    object-fit: fill;
+    object-fit: cover;
   }
 }
 
