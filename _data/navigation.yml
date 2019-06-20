@@ -1,6 +1,6 @@
 main:
   - title: "Archives"
-    url: /archives/
+    url: /archives
   - title: "Code"
     url: /code
   - title: "Music"
