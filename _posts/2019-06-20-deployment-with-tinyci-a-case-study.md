@@ -3,7 +3,7 @@ layout: post
 title: 'Deployment with TinyCI: a case study'
 date: 2019-06-20 19:24 +0100
 ---
-In this post I'm going to break down a strategy for continuous deployment using [TinyCI](https://github.com/JonnieCache/TinyCI).
+In this post I'm going to break down a strategy for continuous deployment using [TinyCI](https://github.com/JonnieCache/TinyCI). If you're not familiar, check out the [Introducing TinyCI]({% post_url 2018-05-09-Introducing-TinyCI %}) post.
 
 With [the release of TinyCI 0.4]({% post_url 2019-05-29-tinyci-0-4 %}) all the pieces are now in place for a system to automatically deploy new versions of an app after the test suite passes.
 
