@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TinyCI"
+title:  "Introducing TinyCI"
 date:   2018-05-09 11:39:55 +0100
 categories: code project
 ---
