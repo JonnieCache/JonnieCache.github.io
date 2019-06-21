@@ -5,7 +5,7 @@ date: 2019-05-30 12:12 +0100
 ---
 <div class="embed-container"><iframe src="https://player.vimeo.com/video/326806344" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
-An interactive sound, light and smoke installation
+An interactive sound, light and smoke installation.
 
 Back in april some friends of mine asked me to help with an installation for a couple of Red Bull events called "Misty Tropics."
 
