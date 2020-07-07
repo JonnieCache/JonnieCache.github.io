@@ -11,6 +11,11 @@ body {
   text-align: center;
 }
 
+.medium {
+  width: 100%;
+  max-width: calc(#{$content-width} - 350px);
+}
+
 .nomargin {
   margin: auto 0;
 }
@@ -23,10 +28,20 @@ body {
   justify-content: center;
 }
 
+.columns {
+  columns: 2;
+}
+
+@include media-query($on-palm) {
+  .columns {
+    columns: 1;
+  }
+}
+
 .card {
   text-align: center;
   width: 254px;
-  
+
   img {
     margin-bottom: 10px;
     border-radius: 10px;
@@ -39,29 +54,29 @@ body {
 .cv-data {
   width: auto;
   line-height: normal;
-  
+
   td {
     padding: 0.4em;
     margin-bottom: 0.7em;
     vertical-align: baseline
   }
-  
+
   td:first-child {
     text-align: right;
     border-bottom: 1px dotted $text-color;
   }
-  
+
   td:last-child {
     border-bottom: 1px dotted $text-color;
     border-left: 1px dotted $text-color;
   }
-  
+
   tr:last-child {
     td {
       border-bottom: none
     }
   }
-  
+
   &.headers-on-left {
     td:first-child {
       font-weight: bold;
