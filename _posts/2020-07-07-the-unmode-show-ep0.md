@@ -5,6 +5,9 @@ date: 2020-07-07 13:56 +0100
 ---
 
 {: .center }
+![The Unmode Show ep1](/assets/img/unmode_show_covers/ep00.jpg){: .medium }
+
+{: .center }
 [Download MP3](https://drive.google.com/file/d/1ZiExd6gU_8VnzwxxGKt5Mtj_1G_kJrl9/view?usp=sharing) \| [Download FLAC](https://drive.google.com/file/d/1qz0BL3H3-e_fr5A7pySOoRgY7MitjHoS/view?usp=sharing)
 
 Episode Zero! The prequel! This was a cover for my friend's slot due to him being away from his studio.
