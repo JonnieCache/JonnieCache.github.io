@@ -28,13 +28,29 @@ body {
   justify-content: center;
 }
 
-.columns {
+.tracklist {
   columns: 2;
+  column-gap: 80px;
+  width: 80%;
+  margin: 0 auto;
+
+  li {
+    break-inside: avoid;
+    font-style: italic;
+
+
+    .artist {
+      font-weight: bold;
+      font-style: normal;
+    }
+  }
 }
 
 @include media-query($on-palm) {
-  .columns {
+  .tracklist {
     columns: 1;
+    width: 85%;
+    margin: auto;
   }
 }
 
