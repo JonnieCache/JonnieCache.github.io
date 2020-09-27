@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  <title>
+    
+      Deployment with TinyCI: a case study - Clever Name
+    
+  </title>
+  <meta name="description" content="In this post I’m going to break down a strategy for continuous deployment using TinyCI. If you’re not familiar, check out the Introducing TinyCI post. With the release of TinyCI 0.4 all the pieces are now in place for a system to automatically deploy new versions of an app after the test suite passes.">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://cleverna.me/2019/06/20/deployment-with-tinyci-a-case-study/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="Clever Name" href="https://cleverna.me/feed.xml">
+
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="In this post I’m going to break down a strategy for continuous deployment using TinyCI. If you’re not familiar, check out the Introducing TinyCI post. With the release of TinyCI 0.4 all the pieces ...">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Clever Name</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/archives">Archives</a>
+      
+        
+        <a class="page-link" href="/code">Code</a>
+      
+        
+        <a class="page-link" href="http://unmode.com">Music</a>
+      
+        
+        <a class="page-link" href="mailto:jonnie@cleverna.me">Contact</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">Deployment with TinyCI: a case study</h1>
+    
+    <p class="post-meta"><time datetime="2019-06-20T19:24:00+01:00" itemprop="datePublished">Jun 20, 2019</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>In this post I’m going to break down a strategy for continuous deployment using <a href="https://github.com/JonnieCache/TinyCI">TinyCI</a>. If you’re not familiar, check out the <a href="/2018/05/09/Introducing-TinyCI/">Introducing TinyCI</a> post.</p>
+
+<p>With <a href="/2019/05/29/tinyci-0-4/">the release of TinyCI 0.4</a> all the pieces are now in place for a system to automatically deploy new versions of an app after the test suite passes.</p>
+
+<!-- more -->
+
+<p>Let’s look at the <a href="https://github.com/JonnieCache/fml/blob/89f544e581676c7f9a783f6e40e2b33df4678dd8/.tinyci.yml">TinyCI config file from FML:</a></p>
+
+<script src="https://gist.github.com/5122ec4ddd0aee57a3b78499507b93f0.js"> </script>
+
+<p>There are two new features at play here: interpolation, and hooks.</p>
+
+<h3 id="interpolation">Interpolation</h3>
+
+<p>You may recognise the use of <code class="language-plaintext highlighter-rouge">&lt;% erb tags %&gt;</code> to insert values into our config file there. The <code class="language-plaintext highlighter-rouge">commit</code> value that we are assigning to the <code class="language-plaintext highlighter-rouge">VERSION</code> environment variable is the sha1 digest of the commit currently being processed by TinyCI. See <a href="% post_url 2019-05-29-tinyci-0-4 %">the recent post for details on this functionality.</a> If you look in the <a href="https://github.com/JonnieCache/fml/blob/89f544e581676c7f9a783f6e40e2b33df4678dd8/docker-compose.yml"><code class="language-plaintext highlighter-rouge">docker-compose.yml</code> file for FML</a> you’ll see that the commit name is being used to tag the images. Fairly self-explanatory stuff.</p>
+
+<h3 id="hooks">Hooks</h3>
+
+<p>Next, the <code class="language-plaintext highlighter-rouge">hooks</code> section. There are two hooks in play here: <code class="language-plaintext highlighter-rouge">after_test_success</code> and <code class="language-plaintext highlighter-rouge">after_all</code>.</p>
+
+<p>In <code class="language-plaintext highlighter-rouge">after_test_success</code>, we’re building the <code class="language-plaintext highlighter-rouge">app</code> target of the Dockerfile, which represents the  production version of the image, without any of the testing dependencies. In <code class="language-plaintext highlighter-rouge">after_all</code> we’re removing all the build artifacts, both the export directory produced by TinyCI (<code class="language-plaintext highlighter-rouge">&lt;%= export %&gt;</code> inserts the path to the exported tree,) and the testing version of the image in the local docker registry. FML runs on a small VPS and I don’t have a particular need to keep testing artifacts around.</p>
+
+<h3 id="deployment">Deployment</h3>
+
+<p>The running FML docker container is managed as a systemd service. Here’s the relevant line from its unit file:</p>
+
+<script src="https://gist.github.com/f58e9291241c210b6897a0b03b70f1fa.js"> </script>
+
+<p>If you scroll to the right you’ll see that the service is set up to run an image tagged <code class="language-plaintext highlighter-rouge">fml:production</code>. As you’ve probably guessed, my strategy for deployment involves simply moving the <code class="language-plaintext highlighter-rouge">production</code> tag to another image and restarting the service.</p>
+
+<p>How do we do that? Here’s my <code class="language-plaintext highlighter-rouge">update_fml.sh</code> script:</p>
+
+<script src="https://gist.github.com/c3779fd1aed014913ee1a3a0b14b1aeb.js"> </script>
+
+<p>The key line is number 5, there we’re calling <code class="language-plaintext highlighter-rouge">git log</code> with a format string that returns the TinyCI result and the hash, grepping for the commits whose tests passed, taking the most recent result, and then cutting off just the hash. In the future this would be best achieved from the TinyCI command line interface, but for now this bash oneliner suffices.</p>
+
+<p>Next we present the sha to the user and ask them for confirmation, and then we apply the <code class="language-plaintext highlighter-rouge">production</code> tag to the docker image that we built from that commit, using the same tagging format defined in the <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> file.</p>
+
+<p>Now we’re all set up to run <code class="language-plaintext highlighter-rouge">systemctl restart fml</code>, and presto, we’re running the latest passing build in production.</p>
+
+<p>Of course, this isn’t fully automated. We have to manually execute two commands to move our new build into production. If you want a truly automated continuous deployment system, you could just run all of this from the <code class="language-plaintext highlighter-rouge">after_test_success</code> hook. In practice however, that level of automation isn’t desirable in my opinion. For a simple single-node deployment like this it’s generally preferable to have a human throw the switch.</p>
+
+<p>I quite like this setup, to me this is perfect for personal projects: it gives me just the right level of IaaS-style automation without too much complexity, and crucially very few moving parts. All we really have here is a few hundred lines of scripting. I hope you find it useful.</p>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="https://cleverna.me/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

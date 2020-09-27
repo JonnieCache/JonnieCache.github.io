@@ -10,17 +10,17 @@
   
   <title>
     
-      TinyCI - Clever Name
+      Introducing TinyCI - Clever Name
     
   </title>
   <meta name="description" content="_____ _ _____ _____ /__ (_)_ __ _ _ / ___/ /_ _/ | || | &#39;_ \| | | |/ / / / | || | | | | |_| / /___/\/ /_ |_||_|_| |_|\__, \____/\____/ |___/ TinyCI is basically a git hook that builds your project and runs your tests when you push a new commit. It’s pitched as a CI system, so a competitor to enormous systems like Circle and Travis. Really though, its much more along the lines of directory watcher scripts like Guard which people use to automatically run their tests whenever they save their files locally. For a full exploration of the architecture and limitations, please see the project’s README.">
   
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://cleverna.me/2018/05/09/TinyCI/">
+  <link rel="canonical" href="https://cleverna.me/2018/05/09/Introducing-TinyCI/">
   
   
-  <link rel="alternate" type="application/rss+xml" title="Clever Name" href="http://cleverna.me/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Clever Name" href="https://cleverna.me/feed.xml">
 
   
 
@@ -32,8 +32,9 @@
   
   
 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700" rel="stylesheet">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
 
   
 
@@ -51,10 +52,10 @@
     <nav class="site-nav">
       
         
-        <a class="page-link" href="/archives/">Archives</a>
+        <a class="page-link" href="/archives">Archives</a>
       
         
-        <a class="page-link" href="https://github.com/JonnieCache">Code</a>
+        <a class="page-link" href="/code">Code</a>
       
         
         <a class="page-link" href="http://unmode.com">Music</a>
@@ -75,7 +76,7 @@
 
   <header class="post-header">
     
-      <h1 class="post-title" itemprop="name headline">TinyCI</h1>
+      <h1 class="post-title" itemprop="name headline">Introducing TinyCI</h1>
     
     <p class="post-meta"><time datetime="2018-05-09T11:39:55+01:00" itemprop="datePublished">May 9, 2018</time> •
   
@@ -92,7 +93,7 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> _____ _               _____  _____
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> _____ _               _____  _____
 /__   (_)_ __  _   _  / ___/ /_  _/
    | || | '_ \| | | |/ /     / /
    | || | | | | |_| / /___/\/ /_  
@@ -128,7 +129,7 @@
 
 <hr />
 
-<p>TinyCI is written in ruby. It executes as a <code class="highlighter-rouge">post-update</code> hook, and when it runs it looks for all untested commits in the repo. For each of these, in order of commit time, it exports the tree and runs a build script and then a test script, referenced in a config file found in the tree itself. The commit is then tagged with “success” or “failure” using the little-used <a href="https://git-scm.com/docs/git-notes">git-notes</a> functionality.</p>
+<p>TinyCI is written in ruby. It executes as a <code class="language-plaintext highlighter-rouge">post-update</code> hook, and when it runs it looks for all untested commits in the repo. For each of these, in order of commit time, it exports the tree and runs a build script and then a test script, referenced in a config file found in the tree itself. The commit is then tagged with “success” or “failure” using the little-used <a href="https://git-scm.com/docs/git-notes">git-notes</a> functionality.</p>
 
 <p>Once again, for a full exploration of the architecture and limitations, please see the <a href="https://github.com/JonnieCache/tinyci">project’s README.</a></p>
 
@@ -150,7 +151,7 @@
     <p>
       
 
-&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://cleverna.me/feed.xml">RSS</a>
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="https://cleverna.me/feed.xml">RSS</a>
 
     </p>
 

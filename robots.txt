@@ -1,1 +1,1 @@
-Sitemap: http://cleverna.me/sitemap.xml
+Sitemap: https://cleverna.me/sitemap.xml

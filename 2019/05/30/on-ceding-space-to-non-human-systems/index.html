@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  <title>
+    
+      On Ceding Space to Non-Human Systems - Clever Name
+    
+  </title>
+  <meta name="description" content="Another project I helped out a friend with, this time involving an arduino and some markov chains.">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://cleverna.me/2019/05/30/on-ceding-space-to-non-human-systems/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="Clever Name" href="https://cleverna.me/feed.xml">
+
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="Another project I helped out a friend with, this time involving an arduino and some markov chains.">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Clever Name</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/archives">Archives</a>
+      
+        
+        <a class="page-link" href="/code">Code</a>
+      
+        
+        <a class="page-link" href="http://unmode.com">Music</a>
+      
+        
+        <a class="page-link" href="mailto:jonnie@cleverna.me">Contact</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">On Ceding Space to Non-Human Systems</h1>
+    
+    <p class="post-meta"><time datetime="2019-05-30T12:12:00+01:00" itemprop="datePublished">May 30, 2019</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <div class="embed-container"><iframe src="https://player.vimeo.com/video/331947048" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe></div>
+
+<p>Another project I helped out a friend with, this time involving an arduino and some markov chains.</p>
+
+<!-- more -->
+
+<p>Last summer, my good friend <a href="https://bdr.space">benny</a> had just finished the dissertation for the second stage of his architecure degree, titled <a href="https://issuu.com/bdresnerreynolds/docs/on_ceding_space_to_non-human_system">On Ceding Space to Non-Human Systems.</a> For his final show he wanted to exhibit it in the form of some kind of sound art installation. Together we came up with the idea of resynthesizing the text on the fly using the classic markov chain algorithm.</p>
+
+<p>Here is his description of the piece:</p>
+
+<blockquote>
+  <p>A dial lies on the face of the installation. When turned all the way to the left, a text-to-speech voice reads the original essay out loud. As the dial is turned to the right, ‘AI’ generated content on the same subject begins to creep into the text, merging with the original writing to a greater and greater extent. The automated content merges with the text mid-sentence, at junctures calculated by grammatical rules. When pushed fully clockwise, the thesis is entirely ‘AI’ generated, and will carry on generating content indefinitely, albeit often in quite an absurd fashion.</p>
+</blockquote>
+
+<p>The system was implemented on a raspberry pi hooked up to a cheap capacitive touchscreen. An arduino polled the position of the central potentiometer and fed it to the pi over serial. While using a fully loaded ATmega development board as an ADC is obviously overkill, who cares when youve got a drawer full of the damn things, right?.</p>
+
+<p>The pi runs a hastily-written python script. Two textfiles are provided as input: the dissertation, and an alternate text to merge it with. A hacked markov algorithm was implemented, which allows weights to be assigned to the different input sources, skewing the probability of selecting words from either corpus. The script generated a dozen markov chains, with weightings ranging from 1:0 (pull words only from the dissertation,) 1:1 (pull words randomly from either text,) to 0:1 (pull words only from the alternate text.)</p>
+
+<p>At runtime, the script would poll the position of the knob, and select from the range of models accordingly. It would generate a sentence, and play it out of the speaker using a TTS algorithm gleaned from the raspian repos.</p>
+
+<p>Thus, the effect is created: as you turn the knob, the spoken words gradually deviate from the original text.</p>
+
+<p>A fairly simple toy, hastily implemented, but it certainly seemed to be a hit with the academics. I think the crudity added a certain cyberpunk flair 😉</p>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="https://cleverna.me/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  <title>
+    
+      TinyCI 0.4 released - Clever Name
+    
+  </title>
+  <meta name="description" content="TinyCI 0.4 is out and as you might expect from the version number there are some new features. New configuration format Command interpolation after_all hook More info in the rest of the post…">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://cleverna.me/2019/05/29/tinyci-0-4/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="Clever Name" href="https://cleverna.me/feed.xml">
+
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="TinyCI 0.4 is out and as you might expect from the version number there are some new features. New configuration format Command interpolation after_all hook More info in the rest of the post…">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Clever Name</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/archives">Archives</a>
+      
+        
+        <a class="page-link" href="/code">Code</a>
+      
+        
+        <a class="page-link" href="http://unmode.com">Music</a>
+      
+        
+        <a class="page-link" href="mailto:jonnie@cleverna.me">Contact</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">TinyCI 0.4 released</h1>
+    
+    <p class="post-meta"><time datetime="2019-05-29T00:00:00+01:00" itemprop="datePublished">May 29, 2019</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>TinyCI 0.4 is out and as you might expect from the version number there are some new features.</p>
+
+<ul>
+  <li>New configuration format</li>
+  <li>Command interpolation</li>
+  <li><code class="language-plaintext highlighter-rouge">after_all</code> hook</li>
+</ul>
+
+<p>More info in the rest of the post…</p>
+
+<!-- more -->
+
+<h3 id="new-configuration-format">New configuration format</h3>
+
+<p>You now have the option of a terser format for <code class="language-plaintext highlighter-rouge">.tinyci.yml</code>.</p>
+
+<p>This:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>build: blah
+test: blah
+hooks:
+  after_test_success: blah
+</code></pre></div></div>
+
+<p>Will be automatically transformed (internally) to this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>builder:
+  class: ScriptBuilder
+  config:
+    command: blah
+tester:
+  class: ScriptTester
+  config:
+    command: blah
+hooker:
+  class: ScriptHooker
+  config:
+    after_test_success: blah
+</code></pre></div></div>
+
+<p>A huge improvement I’m sure you’ll agree, especially since the <code class="language-plaintext highlighter-rouge">Script</code> classes are currently the only ones available anyway.</p>
+
+<p>Note that the new config format is a superset of the old one: configuration in the verbose format continues to work the same.</p>
+
+<h3 id="command-interpolation">Command Interpolation</h3>
+
+<p>You can now use ERB syntax to insert values into your build, test and hook commands at runtime. Let’s look at <a href="https://github.com/JonnieCache/fml/blob/master/.tinyci.yml">FML’s <code class="language-plaintext highlighter-rouge">.tinyci.yml</code> file</a> as an example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>build: VERSION=&lt;%= commit %&gt; docker-compose build --force-rm test
+test: VERSION=&lt;%= commit %&gt; docker-compose run --rm test
+hooks:
+  after_test_success: VERSION=&lt;%= commit %&gt; docker-compose build app
+  after_all: rm -rf &lt;%= export %&gt;#; docker rmi fml:&lt;%= commit %&gt;-test
+</code></pre></div></div>
+
+<p>Here, in the build stage we’re building the test service from the docker compose file. The commit hash is passed in as an environment variable and is used to tag the docker image.
+For the test stage, we run that same docker image to test the app.
+In the hooks, we’re building the production version of the image once we know the build passes the tests. After everything’s finished, we delete the test docker image, as well as the exported copy of the app sourcetree.</p>
+
+<p>This way we are left with only working docker images in the local index.</p>
+
+<h3 id="after_all-hook"><code class="language-plaintext highlighter-rouge">after_all</code> hook</h3>
+
+<p>As you might imagine, this hook is executed after everything else. It’s guaranteed to execute whether or not any stage has failed.</p>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="https://cleverna.me/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
