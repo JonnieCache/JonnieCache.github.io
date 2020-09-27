@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
+  <generator uri="http://jekyllrb.com" version="3.8.7">Jekyll</generator>
   
   
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-07-07T10:05:50+01:00</updated>
-  <id>http://localhost:4000//</id>
+  <link href="https://cleverna.me/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://cleverna.me/" rel="alternate" type="text/html" />
+  <updated>2020-09-27T20:26:38+01:00</updated>
+  <id>https://cleverna.me//</id>
 
   
     <title type="html">Clever Name</title>
@@ -22,15 +22,230 @@
   
     <entry>
       
+      <title type="html">The Unmode Show ep2 23-09-20 Tracklist + Downloads</title>
+      
+      
+      <link href="https://cleverna.me/2020/09/27/the-unmode-show-ep2/" rel="alternate" type="text/html" title="The Unmode Show ep2 23-09-20 Tracklist + Downloads" />
+      
+      <published>2020-09-27T13:56:00+01:00</published>
+      <updated>2020-09-27T13:56:00+01:00</updated>
+      <id>https://cleverna.me/2020/09/27/the-unmode-show-ep2</id>
+      <content type="html" xml:base="https://cleverna.me/2020/09/27/the-unmode-show-ep2/">&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;/assets/img/unmode_show_covers/ep2.jpg&quot; alt=&quot;The Unmode Show ep2&quot; class=&quot;medium&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;center &quot;&gt;&lt;audio class=&quot;medium&quot; controls=&quot;&quot; src=&quot;https://vps.cleverna.me/unmode_opus/The Unmode Show ep2 23-09-20.opus&quot;&gt;&lt;/audio&gt;&lt;/div&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;a href=&quot;https://drive.google.com/file/d/16E3YEzX0u4DK2aMUKiWvy8-63eFlPAfc/view?usp=sharing&quot;&gt;Download MP3&lt;/a&gt; | &lt;a href=&quot;https://drive.google.com/file/d/1AqUUOgakFxMdTUHq0F6HtfFM8j66pgax/view?usp=sharing&quot;&gt;Download FLAC&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The next installment - standing in for benny’s show again ❤️&lt;/p&gt;
+
+&lt;ol class=&quot;tracklist&quot;&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode&lt;/span&gt; - Intro&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Don Ellis&lt;/span&gt; - Open Beauty&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode&lt;/span&gt; - Wet Ferns&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Herbie Hancock&lt;/span&gt; - Nobu&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Rahsaan Roland Kirk&lt;/span&gt; - Seasons&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Gunter Sommer&lt;/span&gt; - Hörmusik&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;OG Maco&lt;/span&gt; - 12 Bricks&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Kode9 &amp;amp; Spaceape&lt;/span&gt; - Sine&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Sleep Research Facility&lt;/span&gt; - 86°S 115°W&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Caroline Polacheck&lt;/span&gt; - Insomnia&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Jam City&lt;/span&gt; - Untitled 4&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Queen&lt;/span&gt; - Arboria (Planet of the Tree Men)&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode&lt;/span&gt; - Untitled&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Foodman&lt;/span&gt; - Nanika&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Virginia Astley&lt;/span&gt; - Sanctus&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Anne Mortifee &amp;amp; Paul Horn&lt;/span&gt; - Overture&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Kaija Saariaho&lt;/span&gt; - Kinkaku-ji (Golden Pavillon)&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Kaija Saariaho&lt;/span&gt; - Tenryu-ji (Dry Mountain Stream)&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Ken Ishii&lt;/span&gt; - Low&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Ecker &amp;amp; Meulyzer&lt;/span&gt; - Enclosure&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Ecker &amp;amp; Meulyzer&lt;/span&gt; - Sea Change&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Fis&lt;/span&gt; - Homologous 2&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Jana Winderen&lt;/span&gt; - Mae Taeng&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Jana Winderen&lt;/span&gt; - Ants&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode&lt;/span&gt; - Untitled&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Jon Hassell&lt;/span&gt; - Paris II&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Two Plus One&lt;/span&gt; - Complex State&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+        <summary type="html">Download MP3 | Download FLAC The next installment - standing in for benny’s show again ❤️ Unmode - Intro Don Ellis - Open Beauty Unmode - Wet Ferns Herbie Hancock - Nobu Rahsaan Roland Kirk - Seasons Gunter Sommer - Hörmusik OG Maco - 12 Bricks Kode9 &amp;amp; Spaceape - Sine Sleep Research Facility - 86°S 115°W Caroline Polacheck - Insomnia Jam City - Untitled 4 Queen - Arboria (Planet of the Tree Men) Unmode - Untitled Foodman - Nanika Virginia Astley - Sanctus Anne Mortifee &amp;amp; Paul Horn - Overture Kaija Saariaho - Kinkaku-ji (Golden Pavillon) Kaija Saariaho - Tenryu-ji (Dry Mountain Stream) Ken Ishii - Low Ecker &amp;amp; Meulyzer - Enclosure Ecker &amp;amp; Meulyzer - Sea Change Fis - Homologous 2 Jana Winderen - Mae Taeng Jana Winderen - Ants Unmode - Untitled Jon Hassell - Paris II Two Plus One - Complex State</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">The Unmode Show ep1 30-06-20 Tracklist + Downloads</title>
+      
+      
+      <link href="https://cleverna.me/2020/07/07/the-unmode-show-ep1/" rel="alternate" type="text/html" title="The Unmode Show ep1 30-06-20 Tracklist + Downloads" />
+      
+      <published>2020-07-07T13:56:00+01:00</published>
+      <updated>2020-07-07T13:56:00+01:00</updated>
+      <id>https://cleverna.me/2020/07/07/the-unmode-show-ep1</id>
+      <content type="html" xml:base="https://cleverna.me/2020/07/07/the-unmode-show-ep1/">&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;/assets/img/unmode_show_covers/ep1.jpg&quot; alt=&quot;The Unmode Show ep1&quot; class=&quot;medium&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;center &quot;&gt;&lt;audio class=&quot;medium&quot; controls=&quot;&quot; src=&quot;https://vps.cleverna.me/unmode_opus/The%20Unmode%20Show%20ep1%2030-06-20.opus&quot;&gt;&lt;/audio&gt;&lt;/div&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;a href=&quot;https://drive.google.com/file/d/1ymwViFlfLkFYis53z7epzNtq6RuPbovs/view?usp=sharing&quot;&gt;Download MP3&lt;/a&gt; | &lt;a href=&quot;https://drive.google.com/file/d/1K4QXv0fk3IpOhI439fOJvg8mJmuA8QlH/view?usp=sharing&quot;&gt;Download FLAC&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The first real episode, hopefully the first of many.&lt;/p&gt;
+
+&lt;ol class=&quot;tracklist&quot;&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode&lt;/span&gt; - Intro&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Sven Libaek&lt;/span&gt; - Nature Walkabout (Desert)&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Herbie Mann&lt;/span&gt; - Flying&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;David Behrman&lt;/span&gt; - Music for Melody Driven Electronics&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Mimi Majick&lt;/span&gt; - Untitled One&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Keith Mansfield&lt;/span&gt; - Teenage Seadiver&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;T Power&lt;/span&gt; - Turquoise&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Delia Derbyshire&lt;/span&gt; - Blue Veils and Golden Sands&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode&lt;/span&gt; - Moon Echo&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Eric Serra&lt;/span&gt; - Paradise?&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Slugabed&lt;/span&gt; - Coolest Breeze Goin’&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Pulse Emitter&lt;/span&gt; - The 23rd Century&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Meitei (冥丁)&lt;/span&gt; - Utano (宇多野)&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;J Majick&lt;/span&gt; - Kindred Spirit&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Biosphere&lt;/span&gt; - Dissolving Clouds&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Franco Zauli&lt;/span&gt; - Eppure E’ Amore&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;D’Gary&lt;/span&gt; - Sahir&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Lloyd Miller and the Heliocentrics&lt;/span&gt; - Salendro&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Tim Shaw&lt;/span&gt; - 3 Different Sized Vessels&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Marta SmiLga&lt;/span&gt; - Untitled 11&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Laurie Spiegel&lt;/span&gt; - A Folk Study&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Shiroi Mishi&lt;/span&gt; - Kokyu&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Disasterpeace&lt;/span&gt; - Spirit&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode ft. Lola&lt;/span&gt; - Untitled Soundscape&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Radiowaves&lt;/span&gt; - Radiowaves 1&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;rkss&lt;/span&gt; - Hardwell, Nicky Romero, Fedde Le Grand, Ummet Ozcan, Spinnin Records and many others,this pack bring you best tools for making&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Logos&lt;/span&gt; - Kowloon&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Martsman&lt;/span&gt; - Some Minimal Business (LXC refix)&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode&lt;/span&gt; - Untitled Soundscape&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Thomas Koner&lt;/span&gt; - SUBSTRATE (Binaural)&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Eric Holm&lt;/span&gt; - Alioth&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode&lt;/span&gt; - Untitled Soundscape&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Stomu Yamata&lt;/span&gt; - The Red Buddha&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+        <summary type="html">Download MP3 | Download FLAC The first real episode, hopefully the first of many. Unmode - Intro Sven Libaek - Nature Walkabout (Desert) Herbie Mann - Flying David Behrman - Music for Melody Driven Electronics Mimi Majick - Untitled One Keith Mansfield - Teenage Seadiver T Power - Turquoise Delia Derbyshire - Blue Veils and Golden Sands Unmode - Moon Echo Eric Serra - Paradise? Slugabed - Coolest Breeze Goin’ Pulse Emitter - The 23rd Century Meitei (冥丁) - Utano (宇多野) J Majick - Kindred Spirit Biosphere - Dissolving Clouds Franco Zauli - Eppure E’ Amore D’Gary - Sahir Lloyd Miller and the Heliocentrics - Salendro Tim Shaw - 3 Different Sized Vessels Marta SmiLga - Untitled 11 Laurie Spiegel - A Folk Study Shiroi Mishi - Kokyu Disasterpeace - Spirit Unmode ft. Lola - Untitled Soundscape Radiowaves - Radiowaves 1 rkss - Hardwell, Nicky Romero, Fedde Le Grand, Ummet Ozcan, Spinnin Records and many others,this pack bring you best tools for making Logos - Kowloon Martsman - Some Minimal Business (LXC refix) Unmode - Untitled Soundscape Thomas Koner - SUBSTRATE (Binaural) Eric Holm - Alioth Unmode - Untitled Soundscape Stomu Yamata - The Red Buddha</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">The Unmode Show ep0 03-06-20 Tracklist + Downloads</title>
+      
+      
+      <link href="https://cleverna.me/2020/07/07/the-unmode-show-ep0/" rel="alternate" type="text/html" title="The Unmode Show ep0 03-06-20 Tracklist + Downloads" />
+      
+      <published>2020-07-07T13:56:00+01:00</published>
+      <updated>2020-07-07T13:56:00+01:00</updated>
+      <id>https://cleverna.me/2020/07/07/the-unmode-show-ep0</id>
+      <content type="html" xml:base="https://cleverna.me/2020/07/07/the-unmode-show-ep0/">&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;/assets/img/unmode_show_covers/ep00.jpg&quot; alt=&quot;The Unmode Show ep0&quot; class=&quot;medium&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;center &quot;&gt;&lt;audio class=&quot;medium&quot; controls=&quot;&quot; src=&quot;https://vps.cleverna.me/unmode_opus/The Unmode Show ep0 03-06-20 (Carpe DMs guest slot).opus&quot;&gt;&lt;/audio&gt;&lt;/div&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;a href=&quot;https://drive.google.com/file/d/1ZiExd6gU_8VnzwxxGKt5Mtj_1G_kJrl9/view?usp=sharing&quot;&gt;Download MP3&lt;/a&gt; | &lt;a href=&quot;https://drive.google.com/file/d/1qz0BL3H3-e_fr5A7pySOoRgY7MitjHoS/view?usp=sharing&quot;&gt;Download FLAC&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Episode Zero! The prequel! This was a cover for my friend’s slot due to him being away from his studio.&lt;/p&gt;
+
+&lt;ol class=&quot;tracklist&quot;&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode&lt;/span&gt; - Untitled Soundscape&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Hugh Hopper and Alan Gower&lt;/span&gt; - Morning Order&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Lifted&lt;/span&gt; - Lift&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode&lt;/span&gt; - Amethyst Parts 1 &amp;amp; 2&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Nintendo Sound Team&lt;/span&gt; - Field (Day)&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Lloyd Mcneil&lt;/span&gt; - Tranquil&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Zhao Jiazhen &amp;amp; Du Cong&lt;/span&gt; - Like a Dream&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Caroline Polachek&lt;/span&gt; - Parachute&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode&lt;/span&gt; - Timecloud&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Danny Scott Lane&lt;/span&gt; - Memory Record&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Nintendo Sound Team&lt;/span&gt; - Mount Hylia&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Motohiko Hamase&lt;/span&gt; - Pascal&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;O Yuki Conjugate&lt;/span&gt; - Shintone&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Lifted&lt;/span&gt; - 3D&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode&lt;/span&gt; - Untitled Soundscape&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;O Yuki Conjugate&lt;/span&gt; - Cloud Cover&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Eli Keszler&lt;/span&gt; - Lotus Awnings&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;No Fixed Abode (LHF)&lt;/span&gt; - Secret Lagoon&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Lee Gamble&lt;/span&gt; - 3-4 Synthetics&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Don Ellis&lt;/span&gt; - Water Jewel&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;24 Carat Black&lt;/span&gt; - In the Ghetto&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Unmode &amp;amp; Cartoon Physics&lt;/span&gt; - Plateaux&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Andrew Pekler&lt;/span&gt; - Approximate Bermeja&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Basic Influence&lt;/span&gt; - Rainforest&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Horsepower Productions&lt;/span&gt; - Classic Deluxe Part Two&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;artist&quot;&gt;Yoichiro Yoshikawa&lt;/span&gt; - Anna &amp;amp; Uni&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+        <summary type="html">Download MP3 | Download FLAC Episode Zero! The prequel! This was a cover for my friend’s slot due to him being away from his studio. Unmode - Untitled Soundscape Hugh Hopper and Alan Gower - Morning Order Lifted - Lift Unmode - Amethyst Parts 1 &amp;amp; 2 Nintendo Sound Team - Field (Day) Lloyd Mcneil - Tranquil Zhao Jiazhen &amp;amp; Du Cong - Like a Dream Caroline Polachek - Parachute Unmode - Timecloud Danny Scott Lane - Memory Record Nintendo Sound Team - Mount Hylia Motohiko Hamase - Pascal O Yuki Conjugate - Shintone Lifted - 3D Unmode - Untitled Soundscape O Yuki Conjugate - Cloud Cover Eli Keszler - Lotus Awnings No Fixed Abode (LHF) - Secret Lagoon Lee Gamble - 3-4 Synthetics Don Ellis - Water Jewel 24 Carat Black - In the Ghetto Unmode &amp;amp; Cartoon Physics - Plateaux Andrew Pekler - Approximate Bermeja Basic Influence - Rainforest Horsepower Productions - Classic Deluxe Part Two Yoichiro Yoshikawa - Anna &amp;amp; Uni</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
       <title type="html">Deployment with TinyCI: a case study</title>
       
       
-      <link href="http://localhost:4000/2019/06/20/deployment-with-tinyci-a-case-study/" rel="alternate" type="text/html" title="Deployment with TinyCI: a case study" />
+      <link href="https://cleverna.me/2019/06/20/deployment-with-tinyci-a-case-study/" rel="alternate" type="text/html" title="Deployment with TinyCI: a case study" />
       
       <published>2019-06-20T19:24:00+01:00</published>
       <updated>2019-06-20T19:24:00+01:00</updated>
-      <id>http://localhost:4000/2019/06/20/deployment-with-tinyci-a-case-study</id>
-      <content type="html" xml:base="http://localhost:4000/2019/06/20/deployment-with-tinyci-a-case-study/">&lt;p&gt;In this post I’m going to break down a strategy for continuous deployment using &lt;a href=&quot;https://github.com/JonnieCache/TinyCI&quot;&gt;TinyCI&lt;/a&gt;. If you’re not familiar, check out the &lt;a href=&quot;/2018/05/09/Introducing-TinyCI/&quot;&gt;Introducing TinyCI&lt;/a&gt; post.&lt;/p&gt;
+      <id>https://cleverna.me/2019/06/20/deployment-with-tinyci-a-case-study</id>
+      <content type="html" xml:base="https://cleverna.me/2019/06/20/deployment-with-tinyci-a-case-study/">&lt;p&gt;In this post I’m going to break down a strategy for continuous deployment using &lt;a href=&quot;https://github.com/JonnieCache/TinyCI&quot;&gt;TinyCI&lt;/a&gt;. If you’re not familiar, check out the &lt;a href=&quot;/2018/05/09/Introducing-TinyCI/&quot;&gt;Introducing TinyCI&lt;/a&gt; post.&lt;/p&gt;
 
 &lt;p&gt;With &lt;a href=&quot;/2019/05/29/tinyci-0-4/&quot;&gt;the release of TinyCI 0.4&lt;/a&gt; all the pieces are now in place for a system to automatically deploy new versions of an app after the test suite passes.&lt;/p&gt;
 
@@ -101,12 +316,12 @@
       <title type="html">On Ceding Space to Non-Human Systems</title>
       
       
-      <link href="http://localhost:4000/2019/05/30/on-ceding-space-to-non-human-systems/" rel="alternate" type="text/html" title="On Ceding Space to Non-Human Systems" />
+      <link href="https://cleverna.me/2019/05/30/on-ceding-space-to-non-human-systems/" rel="alternate" type="text/html" title="On Ceding Space to Non-Human Systems" />
       
       <published>2019-05-30T12:12:00+01:00</published>
       <updated>2019-05-30T12:12:00+01:00</updated>
-      <id>http://localhost:4000/2019/05/30/on-ceding-space-to-non-human-systems</id>
-      <content type="html" xml:base="http://localhost:4000/2019/05/30/on-ceding-space-to-non-human-systems/">&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/331947048&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+      <id>https://cleverna.me/2019/05/30/on-ceding-space-to-non-human-systems</id>
+      <content type="html" xml:base="https://cleverna.me/2019/05/30/on-ceding-space-to-non-human-systems/">&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/331947048&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;Another project I helped out a friend with, this time involving an arduino and some markov chains.&lt;/p&gt;
 
@@ -157,12 +372,12 @@
       <title type="html">Misty Tropics</title>
       
       
-      <link href="http://localhost:4000/2019/05/30/misty-tropics/" rel="alternate" type="text/html" title="Misty Tropics" />
+      <link href="https://cleverna.me/2019/05/30/misty-tropics/" rel="alternate" type="text/html" title="Misty Tropics" />
       
       <published>2019-05-30T12:12:00+01:00</published>
       <updated>2019-05-30T12:12:00+01:00</updated>
-      <id>http://localhost:4000/2019/05/30/misty-tropics</id>
-      <content type="html" xml:base="http://localhost:4000/2019/05/30/misty-tropics/">&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/326806344&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+      <id>https://cleverna.me/2019/05/30/misty-tropics</id>
+      <content type="html" xml:base="https://cleverna.me/2019/05/30/misty-tropics/">&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/326806344&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;An interactive sound, light and smoke installation.&lt;/p&gt;
 
@@ -215,12 +430,12 @@
       <title type="html">TinyCI 0.4 released</title>
       
       
-      <link href="http://localhost:4000/2019/05/29/tinyci-0-4/" rel="alternate" type="text/html" title="TinyCI 0.4 released" />
+      <link href="https://cleverna.me/2019/05/29/tinyci-0-4/" rel="alternate" type="text/html" title="TinyCI 0.4 released" />
       
       <published>2019-05-29T00:00:00+01:00</published>
       <updated>2019-05-29T00:00:00+01:00</updated>
-      <id>http://localhost:4000/2019/05/29/tinyci-0-4</id>
-      <content type="html" xml:base="http://localhost:4000/2019/05/29/tinyci-0-4/">&lt;p&gt;TinyCI 0.4 is out and as you might expect from the version number there are some new features.&lt;/p&gt;
+      <id>https://cleverna.me/2019/05/29/tinyci-0-4</id>
+      <content type="html" xml:base="https://cleverna.me/2019/05/29/tinyci-0-4/">&lt;p&gt;TinyCI 0.4 is out and as you might expect from the version number there are some new features.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;New configuration format&lt;/li&gt;
@@ -312,12 +527,12 @@ In the hooks, we’re building the production version of the image once we know 
       <title type="html">TinyCI updates - versions 0.2.0 and 0.3.0</title>
       
       
-      <link href="http://localhost:4000/2018/10/19/tinyci-updates/" rel="alternate" type="text/html" title="TinyCI updates - versions 0.2.0 and 0.3.0" />
+      <link href="https://cleverna.me/2018/10/19/tinyci-updates/" rel="alternate" type="text/html" title="TinyCI updates - versions 0.2.0 and 0.3.0" />
       
       <published>2018-10-19T10:35:00+01:00</published>
       <updated>2018-10-19T10:35:00+01:00</updated>
-      <id>http://localhost:4000/2018/10/19/tinyci-updates</id>
-      <content type="html" xml:base="http://localhost:4000/2018/10/19/tinyci-updates/">&lt;p&gt;There have been two new versions of TinyCI released since launch. 0.2.0 added hooks/callbacks, and 0.3.0 added a handy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;compact&lt;/code&gt; script to compress old build directories.&lt;/p&gt;
+      <id>https://cleverna.me/2018/10/19/tinyci-updates</id>
+      <content type="html" xml:base="https://cleverna.me/2018/10/19/tinyci-updates/">&lt;p&gt;There have been two new versions of TinyCI released since launch. 0.2.0 added hooks/callbacks, and 0.3.0 added a handy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;compact&lt;/code&gt; script to compress old build directories.&lt;/p&gt;
 
 &lt;p&gt;In this post I’ll provide some details on the new functionality.&lt;/p&gt;
 
@@ -428,12 +643,12 @@ Usage: compact [options]
       <title type="html">podcast_feed_gen</title>
       
       
-      <link href="http://localhost:4000/2018/10/14/podcast-feed-gen/" rel="alternate" type="text/html" title="podcast_feed_gen" />
+      <link href="https://cleverna.me/2018/10/14/podcast-feed-gen/" rel="alternate" type="text/html" title="podcast_feed_gen" />
       
       <published>2018-10-14T21:06:00+01:00</published>
       <updated>2018-10-14T21:06:00+01:00</updated>
-      <id>http://localhost:4000/2018/10/14/podcast-feed-gen</id>
-      <content type="html" xml:base="http://localhost:4000/2018/10/14/podcast-feed-gen/">&lt;p&gt;A small CLI app for generating podcast RSS feeds from a directory of files. Similar to &lt;a href=&quot;https://github.com/nerab/dropcaster&quot;&gt;dropcaster&lt;/a&gt; but much simpler, and it supports a wide variety of audio formats instead of just MP3.&lt;/p&gt;
+      <id>https://cleverna.me/2018/10/14/podcast-feed-gen</id>
+      <content type="html" xml:base="https://cleverna.me/2018/10/14/podcast-feed-gen/">&lt;p&gt;A small CLI app for generating podcast RSS feeds from a directory of files. Similar to &lt;a href=&quot;https://github.com/nerab/dropcaster&quot;&gt;dropcaster&lt;/a&gt; but much simpler, and it supports a wide variety of audio formats instead of just MP3.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/JonnieCache/podcast_feed_gen&quot;&gt;Source/README here&lt;/a&gt;&lt;/p&gt;
 
@@ -488,12 +703,12 @@ $ podcast_feed_gen &amp;gt; index.rss
       <title type="html">jekyll-thumb</title>
       
       
-      <link href="http://localhost:4000/2018/10/02/jekyll-thumb/" rel="alternate" type="text/html" title="jekyll-thumb" />
+      <link href="https://cleverna.me/2018/10/02/jekyll-thumb/" rel="alternate" type="text/html" title="jekyll-thumb" />
       
       <published>2018-10-02T16:39:00+01:00</published>
       <updated>2018-10-02T16:39:00+01:00</updated>
-      <id>http://localhost:4000/2018/10/02/jekyll-thumb</id>
-      <content type="html" xml:base="http://localhost:4000/2018/10/02/jekyll-thumb/">&lt;p&gt;A simple jekyll plugin to generate image thumbnails using &lt;a href=&quot;https://jcupitt.github.io/libvips/&quot;&gt;libvips&lt;/a&gt;. You feed it the image path and a width or height value, and it scales the image down, and outputs an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;img /&amp;gt;&lt;/code&gt; tag wrapped in an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; pointing to the original image file.&lt;/p&gt;
+      <id>https://cleverna.me/2018/10/02/jekyll-thumb</id>
+      <content type="html" xml:base="https://cleverna.me/2018/10/02/jekyll-thumb/">&lt;p&gt;A simple jekyll plugin to generate image thumbnails using &lt;a href=&quot;https://jcupitt.github.io/libvips/&quot;&gt;libvips&lt;/a&gt;. You feed it the image path and a width or height value, and it scales the image down, and outputs an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;img /&amp;gt;&lt;/code&gt; tag wrapped in an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; pointing to the original image file.&lt;/p&gt;
 
 &lt;p&gt;Simple stuff, but all the existing plugins were tied to imagemagick, which I hope to leave behind.&lt;/p&gt;
 
@@ -526,12 +741,12 @@ $ podcast_feed_gen &amp;gt; index.rss
       <title type="html">FML</title>
       
       
-      <link href="http://localhost:4000/2018/05/10/FML/" rel="alternate" type="text/html" title="FML" />
+      <link href="https://cleverna.me/2018/05/10/FML/" rel="alternate" type="text/html" title="FML" />
       
       <published>2018-05-10T15:16:00+01:00</published>
       <updated>2018-05-10T15:16:00+01:00</updated>
-      <id>http://localhost:4000/2018/05/10/FML</id>
-      <content type="html" xml:base="http://localhost:4000/2018/05/10/FML/">&lt;p class=&quot;center&quot;&gt;&lt;a href=&quot;http://fml.cleverna.me&quot;&gt;&lt;img src=&quot;/assets/img/fml_logo.jpg&quot; alt=&quot;FML&quot; title=&quot;FML aka Fix My Life&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <id>https://cleverna.me/2018/05/10/FML</id>
+      <content type="html" xml:base="https://cleverna.me/2018/05/10/FML/">&lt;p class=&quot;center&quot;&gt;&lt;a href=&quot;http://fml.cleverna.me&quot;&gt;&lt;img src=&quot;/assets/img/fml_logo.jpg&quot; alt=&quot;FML&quot; title=&quot;FML aka Fix My Life&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p class=&quot;center nomargin center nomargin&quot;&gt;&lt;sub&gt;&lt;sup&gt;&lt;em&gt;aka&lt;/em&gt;&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
 &lt;h4 class=&quot;center nomargin&quot; id=&quot;fix-my-life&quot;&gt;&lt;a href=&quot;http://fml.cleverna.me&quot;&gt;Fix My Life&lt;/a&gt;&lt;/h4&gt;
@@ -613,12 +828,12 @@ The amount of points needed to fill the meter is specified in terms on the &lt;c
       <title type="html">Introducing TinyCI</title>
       
       
-      <link href="http://localhost:4000/2018/05/09/Introducing-TinyCI/" rel="alternate" type="text/html" title="Introducing TinyCI" />
+      <link href="https://cleverna.me/2018/05/09/Introducing-TinyCI/" rel="alternate" type="text/html" title="Introducing TinyCI" />
       
       <published>2018-05-09T11:39:55+01:00</published>
       <updated>2018-05-09T11:39:55+01:00</updated>
-      <id>http://localhost:4000/2018/05/09/Introducing-TinyCI</id>
-      <content type="html" xml:base="http://localhost:4000/2018/05/09/Introducing-TinyCI/">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; _____ _               _____  _____
+      <id>https://cleverna.me/2018/05/09/Introducing-TinyCI</id>
+      <content type="html" xml:base="https://cleverna.me/2018/05/09/Introducing-TinyCI/">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; _____ _               _____  _____
 /__   (_)_ __  _   _  / ___/ /_  _/
    | || | '_ \| | | |/ /     / /
    | || | | | | |_| / /___/\/ /_  
