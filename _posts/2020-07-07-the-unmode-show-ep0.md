@@ -7,6 +7,8 @@ date: 2020-07-07 13:56 +0100
 {: .center }
 ![The Unmode Show ep0](/assets/img/unmode_show_covers/ep00.jpg){: .medium }
 
+<div class="center "><audio class="medium" controls src="https://vps.cleverna.me/unmode_show_mp3s/The Unmode Show ep0 03-06-20 (Carpe DMs guest slot).mp3"></audio></div>
+
 {: .center }
 [Download MP3](https://drive.google.com/file/d/1ZiExd6gU_8VnzwxxGKt5Mtj_1G_kJrl9/view?usp=sharing) \| [Download FLAC](https://drive.google.com/file/d/1qz0BL3H3-e_fr5A7pySOoRgY7MitjHoS/view?usp=sharing)
 

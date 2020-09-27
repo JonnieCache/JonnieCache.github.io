@@ -6,7 +6,7 @@ date: 2020-09-27 13:56 +0100
 {: .center }
 ![The Unmode Show ep2](/assets/img/unmode_show_covers/ep2.jpg){: .medium }
 
-<div class="center "><audio class="medium" controls src="/assets/mp3s/The_Unmode_Show_ep2_23-09-20.mp3"></audio></div>
+<div class="center "><audio class="medium" controls src="https://vps.cleverna.me/unmode_show_mp3s/The Unmode Show ep2 23-09-20.mp3"></audio></div>
 
 {: .center }
 [Download MP3](https://drive.google.com/file/d/16E3YEzX0u4DK2aMUKiWvy8-63eFlPAfc/view?usp=sharing) \| [Download FLAC](https://drive.google.com/file/d/1AqUUOgakFxMdTUHq0F6HtfFM8j66pgax/view?usp=sharing)

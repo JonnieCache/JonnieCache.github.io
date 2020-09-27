@@ -6,6 +6,8 @@ date: 2020-07-07 13:56 +0100
 {: .center }
 ![The Unmode Show ep1](/assets/img/unmode_show_covers/ep1.jpg){: .medium }
 
+<div class="center "><audio class="medium" controls src="https://vps.cleverna.me/unmode_show_mp3s/The%20Unmode%20Show%20ep1%2030-06-20.mp3"></audio></div>
+
 {: .center }
 [Download MP3](https://drive.google.com/file/d/1ymwViFlfLkFYis53z7epzNtq6RuPbovs/view?usp=sharing) \| [Download FLAC](https://drive.google.com/file/d/1K4QXv0fk3IpOhI439fOJvg8mJmuA8QlH/view?usp=sharing)
 
