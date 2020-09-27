@@ -183,17 +183,10 @@ body { background: url("/assets/img/squairy_light.png"); }
 
 .center { text-align: center; }
 
-.medium { width: 100%; max-width: calc(960px - 350px); }
-
 .nomargin { margin: auto 0; }
 
 .gallery { display: grid; grid-template-columns: repeat(auto-fill, 254px); grid-gap: 15px; justify-content: center; }
 
-.tracklist { columns: 2; column-gap: 80px; width: 80%; margin: 0 auto; }
-.tracklist li { break-inside: avoid; font-style: italic; }
-.tracklist li .artist { font-weight: bold; font-style: normal; }
-
-@media screen and (max-width: 600px) { .tracklist { columns: 1; width: 85%; margin: auto; } }
 .card { text-align: center; width: 254px; }
 .card img { margin-bottom: 10px; border-radius: 10px; width: 254px; height: 102px; object-fit: cover; }
 
