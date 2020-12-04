@@ -3,10 +3,10 @@
   <generator uri="http://jekyllrb.com" version="3.8.7">Jekyll</generator>
   
   
-  <link href="http://0.0.0.0:3000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://0.0.0.0:3000/" rel="alternate" type="text/html" />
-  <updated>2020-12-04T16:37:59+00:00</updated>
-  <id>http://0.0.0.0:3000//</id>
+  <link href="https://cleverna.me/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://cleverna.me/" rel="alternate" type="text/html" />
+  <updated>2020-12-04T16:40:03+00:00</updated>
+  <id>https://cleverna.me//</id>
 
   
     <title type="html">Clever Name</title>
@@ -20,6 +20,68 @@
 
   
   
+    <entry>
+      
+      <title type="html">How to permanently remove the Qualcomm aptX HD notifcation from your android phone</title>
+      
+      
+      <link href="https://cleverna.me/2020/12/04/how-to-permanently-remove-the-qualcomm-aptx-hd-notifcation-from-your-android-phone/" rel="alternate" type="text/html" title="How to permanently remove the Qualcomm aptX HD notifcation from your android phone" />
+      
+      <published>2020-12-04T16:39:00+00:00</published>
+      <updated>2020-12-04T16:39:00+00:00</updated>
+      <id>https://cleverna.me/2020/12/04/how-to-permanently-remove-the-qualcomm-aptx-hd-notifcation-from-your-android-phone</id>
+      <content type="html" xml:base="https://cleverna.me/2020/12/04/how-to-permanently-remove-the-qualcomm-aptx-hd-notifcation-from-your-android-phone/">&lt;p&gt;&lt;img src=&quot;/assets/img/aptx_notification.png&quot; alt=&quot;This bastard&quot; title=&quot;Qualcomm aptX HD notification&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;adb shell cmd package uninstall -k --user 0 com.qualcomm.qtil.aptxals&lt;/code&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;You’ve probably had the same experience: you get your new wireless headphones in the post after hours spent weighing your options, you excitedly hold down the button to pair it with your phone but what’s this?&lt;/p&gt;
+
+&lt;p&gt;An unhideable spam notification from a previously hidden system app? And all the notification permission controls are greyed out? And you can’t uninstall the app? And the notification never goes away on it’s own? Oh and what’s that? The functionality that the notification exists to “advertise” (to a person who has already paid for it) is already enabled by default? And if you press on the notification, it crashes the bluetooth audio stack completely, and doesn’t even disappear then?&lt;/p&gt;
+
+&lt;p&gt;One thing is to be sure: the people responsible for this nightmarish prison of the spirit we are all trapped in &lt;em&gt;must&lt;/em&gt; be brought to justice. In the meantime though, let’s at least get rid of that fucking notification.&lt;/p&gt;
+
+&lt;p&gt;Step 1. Install adb. Look elsewhere if you don’t know how to do that.&lt;/p&gt;
+
+&lt;p&gt;Step 2: Run this in your command prompt:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;adb shell cmd package uninstall -k --user 0 com.qualcomm.qtil.aptxals&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You can also remove this other package, I don’t know what it does but at this point anything under the qualcomm namespace can do one:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;adb shell cmd package uninstall -k --user 0 com.qualcomm.qtil.aptxalsOverlay&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This leaves the actual aptX functionality working just fine as far as I can tell. I have noticed no difference in any functionality or behavior as a result of doing this, but if you want to put it back how it was before you can reinstall the packages with these commands:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;adb shell cmd package install-existing com.qualcomm.qtil.aptxals&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;adb shell cmd package install-existing com.qualcomm.qtil.aptxalsOverlay&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The uninstall command never actually deletes them because they’re baked into the system image or whatever, so they can be reenabled with no issues.&lt;/p&gt;
+
+&lt;p&gt;If you’re confused by this, &lt;a href=&quot;https://www.xda-developers.com/uninstall-carrier-oem-bloatware-without-root-access/&quot;&gt;here’s a page that explains the package removal process in much more detail&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+        <summary type="html">adb shell cmd package uninstall -k --user 0 com.qualcomm.qtil.aptxals</summary>
+      
+
+      
+      
+    </entry>
+  
   
   
     <entry>
@@ -27,12 +89,12 @@
       <title type="html">The Unmode Show ep2 23-09-20 Tracklist + Downloads</title>
       
       
-      <link href="http://0.0.0.0:3000/2020/09/27/the-unmode-show-ep2/" rel="alternate" type="text/html" title="The Unmode Show ep2 23-09-20 Tracklist + Downloads" />
+      <link href="https://cleverna.me/2020/09/27/the-unmode-show-ep2/" rel="alternate" type="text/html" title="The Unmode Show ep2 23-09-20 Tracklist + Downloads" />
       
       <published>2020-09-27T13:56:00+01:00</published>
       <updated>2020-09-27T13:56:00+01:00</updated>
-      <id>http://0.0.0.0:3000/2020/09/27/the-unmode-show-ep2</id>
-      <content type="html" xml:base="http://0.0.0.0:3000/2020/09/27/the-unmode-show-ep2/">&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;/assets/img/unmode_show_covers/ep2.jpg&quot; alt=&quot;The Unmode Show ep2&quot; class=&quot;medium&quot; /&gt;&lt;/p&gt;
+      <id>https://cleverna.me/2020/09/27/the-unmode-show-ep2</id>
+      <content type="html" xml:base="https://cleverna.me/2020/09/27/the-unmode-show-ep2/">&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;/assets/img/unmode_show_covers/ep2.jpg&quot; alt=&quot;The Unmode Show ep2&quot; class=&quot;medium&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;center &quot;&gt;&lt;audio class=&quot;medium&quot; controls=&quot;&quot; src=&quot;https://vps.cleverna.me/unmode_show_mp3s/The Unmode Show ep2 23-09-20.mp3&quot;&gt;&lt;/audio&gt;&lt;/div&gt;
 
@@ -97,12 +159,12 @@
       <title type="html">The Unmode Show ep1 30-06-20 Tracklist + Downloads</title>
       
       
-      <link href="http://0.0.0.0:3000/2020/07/07/the-unmode-show-ep1/" rel="alternate" type="text/html" title="The Unmode Show ep1 30-06-20 Tracklist + Downloads" />
+      <link href="https://cleverna.me/2020/07/07/the-unmode-show-ep1/" rel="alternate" type="text/html" title="The Unmode Show ep1 30-06-20 Tracklist + Downloads" />
       
       <published>2020-07-07T13:56:00+01:00</published>
       <updated>2020-07-07T13:56:00+01:00</updated>
-      <id>http://0.0.0.0:3000/2020/07/07/the-unmode-show-ep1</id>
-      <content type="html" xml:base="http://0.0.0.0:3000/2020/07/07/the-unmode-show-ep1/">&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;/assets/img/unmode_show_covers/ep1.jpg&quot; alt=&quot;The Unmode Show ep1&quot; class=&quot;medium&quot; /&gt;&lt;/p&gt;
+      <id>https://cleverna.me/2020/07/07/the-unmode-show-ep1</id>
+      <content type="html" xml:base="https://cleverna.me/2020/07/07/the-unmode-show-ep1/">&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;/assets/img/unmode_show_covers/ep1.jpg&quot; alt=&quot;The Unmode Show ep1&quot; class=&quot;medium&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;center &quot;&gt;&lt;audio class=&quot;medium&quot; controls=&quot;&quot; src=&quot;https://vps.cleverna.me/unmode_show_mp3s/The%20Unmode%20Show%20ep1%2030-06-20.mp3&quot;&gt;&lt;/audio&gt;&lt;/div&gt;
 
@@ -173,12 +235,12 @@
       <title type="html">The Unmode Show ep0 03-06-20 Tracklist + Downloads</title>
       
       
-      <link href="http://0.0.0.0:3000/2020/07/07/the-unmode-show-ep0/" rel="alternate" type="text/html" title="The Unmode Show ep0 03-06-20 Tracklist + Downloads" />
+      <link href="https://cleverna.me/2020/07/07/the-unmode-show-ep0/" rel="alternate" type="text/html" title="The Unmode Show ep0 03-06-20 Tracklist + Downloads" />
       
       <published>2020-07-07T13:56:00+01:00</published>
       <updated>2020-07-07T13:56:00+01:00</updated>
-      <id>http://0.0.0.0:3000/2020/07/07/the-unmode-show-ep0</id>
-      <content type="html" xml:base="http://0.0.0.0:3000/2020/07/07/the-unmode-show-ep0/">&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;/assets/img/unmode_show_covers/ep00.jpg&quot; alt=&quot;The Unmode Show ep0&quot; class=&quot;medium&quot; /&gt;&lt;/p&gt;
+      <id>https://cleverna.me/2020/07/07/the-unmode-show-ep0</id>
+      <content type="html" xml:base="https://cleverna.me/2020/07/07/the-unmode-show-ep0/">&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;/assets/img/unmode_show_covers/ep00.jpg&quot; alt=&quot;The Unmode Show ep0&quot; class=&quot;medium&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;center &quot;&gt;&lt;audio class=&quot;medium&quot; controls=&quot;&quot; src=&quot;https://vps.cleverna.me/unmode_show_mp3s/The Unmode Show ep0 03-06-20 (Carpe DMs guest slot).mp3&quot;&gt;&lt;/audio&gt;&lt;/div&gt;
 
@@ -242,12 +304,12 @@
       <title type="html">Deployment with TinyCI: a case study</title>
       
       
-      <link href="http://0.0.0.0:3000/2019/06/20/deployment-with-tinyci-a-case-study/" rel="alternate" type="text/html" title="Deployment with TinyCI: a case study" />
+      <link href="https://cleverna.me/2019/06/20/deployment-with-tinyci-a-case-study/" rel="alternate" type="text/html" title="Deployment with TinyCI: a case study" />
       
       <published>2019-06-20T19:24:00+01:00</published>
       <updated>2019-06-20T19:24:00+01:00</updated>
-      <id>http://0.0.0.0:3000/2019/06/20/deployment-with-tinyci-a-case-study</id>
-      <content type="html" xml:base="http://0.0.0.0:3000/2019/06/20/deployment-with-tinyci-a-case-study/">&lt;p&gt;In this post I’m going to break down a strategy for continuous deployment using &lt;a href=&quot;https://github.com/JonnieCache/TinyCI&quot;&gt;TinyCI&lt;/a&gt;. If you’re not familiar, check out the &lt;a href=&quot;/2018/05/09/Introducing-TinyCI/&quot;&gt;Introducing TinyCI&lt;/a&gt; post.&lt;/p&gt;
+      <id>https://cleverna.me/2019/06/20/deployment-with-tinyci-a-case-study</id>
+      <content type="html" xml:base="https://cleverna.me/2019/06/20/deployment-with-tinyci-a-case-study/">&lt;p&gt;In this post I’m going to break down a strategy for continuous deployment using &lt;a href=&quot;https://github.com/JonnieCache/TinyCI&quot;&gt;TinyCI&lt;/a&gt;. If you’re not familiar, check out the &lt;a href=&quot;/2018/05/09/Introducing-TinyCI/&quot;&gt;Introducing TinyCI&lt;/a&gt; post.&lt;/p&gt;
 
 &lt;p&gt;With &lt;a href=&quot;/2019/05/29/tinyci-0-4/&quot;&gt;the release of TinyCI 0.4&lt;/a&gt; all the pieces are now in place for a system to automatically deploy new versions of an app after the test suite passes.&lt;/p&gt;
 
@@ -318,12 +380,12 @@
       <title type="html">On Ceding Space to Non-Human Systems</title>
       
       
-      <link href="http://0.0.0.0:3000/2019/05/30/on-ceding-space-to-non-human-systems/" rel="alternate" type="text/html" title="On Ceding Space to Non-Human Systems" />
+      <link href="https://cleverna.me/2019/05/30/on-ceding-space-to-non-human-systems/" rel="alternate" type="text/html" title="On Ceding Space to Non-Human Systems" />
       
       <published>2019-05-30T12:12:00+01:00</published>
       <updated>2019-05-30T12:12:00+01:00</updated>
-      <id>http://0.0.0.0:3000/2019/05/30/on-ceding-space-to-non-human-systems</id>
-      <content type="html" xml:base="http://0.0.0.0:3000/2019/05/30/on-ceding-space-to-non-human-systems/">&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/331947048&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+      <id>https://cleverna.me/2019/05/30/on-ceding-space-to-non-human-systems</id>
+      <content type="html" xml:base="https://cleverna.me/2019/05/30/on-ceding-space-to-non-human-systems/">&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/331947048&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;Another project I helped out a friend with, this time involving an arduino and some markov chains.&lt;/p&gt;
 
@@ -374,12 +436,12 @@
       <title type="html">Misty Tropics</title>
       
       
-      <link href="http://0.0.0.0:3000/2019/05/30/misty-tropics/" rel="alternate" type="text/html" title="Misty Tropics" />
+      <link href="https://cleverna.me/2019/05/30/misty-tropics/" rel="alternate" type="text/html" title="Misty Tropics" />
       
       <published>2019-05-30T12:12:00+01:00</published>
       <updated>2019-05-30T12:12:00+01:00</updated>
-      <id>http://0.0.0.0:3000/2019/05/30/misty-tropics</id>
-      <content type="html" xml:base="http://0.0.0.0:3000/2019/05/30/misty-tropics/">&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/326806344&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+      <id>https://cleverna.me/2019/05/30/misty-tropics</id>
+      <content type="html" xml:base="https://cleverna.me/2019/05/30/misty-tropics/">&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/326806344&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;An interactive sound, light and smoke installation.&lt;/p&gt;
 
@@ -432,12 +494,12 @@
       <title type="html">TinyCI 0.4 released</title>
       
       
-      <link href="http://0.0.0.0:3000/2019/05/29/tinyci-0-4/" rel="alternate" type="text/html" title="TinyCI 0.4 released" />
+      <link href="https://cleverna.me/2019/05/29/tinyci-0-4/" rel="alternate" type="text/html" title="TinyCI 0.4 released" />
       
       <published>2019-05-29T00:00:00+01:00</published>
       <updated>2019-05-29T00:00:00+01:00</updated>
-      <id>http://0.0.0.0:3000/2019/05/29/tinyci-0-4</id>
-      <content type="html" xml:base="http://0.0.0.0:3000/2019/05/29/tinyci-0-4/">&lt;p&gt;TinyCI 0.4 is out and as you might expect from the version number there are some new features.&lt;/p&gt;
+      <id>https://cleverna.me/2019/05/29/tinyci-0-4</id>
+      <content type="html" xml:base="https://cleverna.me/2019/05/29/tinyci-0-4/">&lt;p&gt;TinyCI 0.4 is out and as you might expect from the version number there are some new features.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;New configuration format&lt;/li&gt;
@@ -529,12 +591,12 @@ In the hooks, we’re building the production version of the image once we know 
       <title type="html">TinyCI updates - versions 0.2.0 and 0.3.0</title>
       
       
-      <link href="http://0.0.0.0:3000/2018/10/19/tinyci-updates/" rel="alternate" type="text/html" title="TinyCI updates - versions 0.2.0 and 0.3.0" />
+      <link href="https://cleverna.me/2018/10/19/tinyci-updates/" rel="alternate" type="text/html" title="TinyCI updates - versions 0.2.0 and 0.3.0" />
       
       <published>2018-10-19T10:35:00+01:00</published>
       <updated>2018-10-19T10:35:00+01:00</updated>
-      <id>http://0.0.0.0:3000/2018/10/19/tinyci-updates</id>
-      <content type="html" xml:base="http://0.0.0.0:3000/2018/10/19/tinyci-updates/">&lt;p&gt;There have been two new versions of TinyCI released since launch. 0.2.0 added hooks/callbacks, and 0.3.0 added a handy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;compact&lt;/code&gt; script to compress old build directories.&lt;/p&gt;
+      <id>https://cleverna.me/2018/10/19/tinyci-updates</id>
+      <content type="html" xml:base="https://cleverna.me/2018/10/19/tinyci-updates/">&lt;p&gt;There have been two new versions of TinyCI released since launch. 0.2.0 added hooks/callbacks, and 0.3.0 added a handy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;compact&lt;/code&gt; script to compress old build directories.&lt;/p&gt;
 
 &lt;p&gt;In this post I’ll provide some details on the new functionality.&lt;/p&gt;
 
@@ -645,12 +707,12 @@ Usage: compact [options]
       <title type="html">podcast_feed_gen</title>
       
       
-      <link href="http://0.0.0.0:3000/2018/10/14/podcast-feed-gen/" rel="alternate" type="text/html" title="podcast_feed_gen" />
+      <link href="https://cleverna.me/2018/10/14/podcast-feed-gen/" rel="alternate" type="text/html" title="podcast_feed_gen" />
       
       <published>2018-10-14T21:06:00+01:00</published>
       <updated>2018-10-14T21:06:00+01:00</updated>
-      <id>http://0.0.0.0:3000/2018/10/14/podcast-feed-gen</id>
-      <content type="html" xml:base="http://0.0.0.0:3000/2018/10/14/podcast-feed-gen/">&lt;p&gt;A small CLI app for generating podcast RSS feeds from a directory of files. Similar to &lt;a href=&quot;https://github.com/nerab/dropcaster&quot;&gt;dropcaster&lt;/a&gt; but much simpler, and it supports a wide variety of audio formats instead of just MP3.&lt;/p&gt;
+      <id>https://cleverna.me/2018/10/14/podcast-feed-gen</id>
+      <content type="html" xml:base="https://cleverna.me/2018/10/14/podcast-feed-gen/">&lt;p&gt;A small CLI app for generating podcast RSS feeds from a directory of files. Similar to &lt;a href=&quot;https://github.com/nerab/dropcaster&quot;&gt;dropcaster&lt;/a&gt; but much simpler, and it supports a wide variety of audio formats instead of just MP3.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/JonnieCache/podcast_feed_gen&quot;&gt;Source/README here&lt;/a&gt;&lt;/p&gt;
 
@@ -705,12 +767,12 @@ $ podcast_feed_gen &amp;gt; index.rss
       <title type="html">jekyll-thumb</title>
       
       
-      <link href="http://0.0.0.0:3000/2018/10/02/jekyll-thumb/" rel="alternate" type="text/html" title="jekyll-thumb" />
+      <link href="https://cleverna.me/2018/10/02/jekyll-thumb/" rel="alternate" type="text/html" title="jekyll-thumb" />
       
       <published>2018-10-02T16:39:00+01:00</published>
       <updated>2018-10-02T16:39:00+01:00</updated>
-      <id>http://0.0.0.0:3000/2018/10/02/jekyll-thumb</id>
-      <content type="html" xml:base="http://0.0.0.0:3000/2018/10/02/jekyll-thumb/">&lt;p&gt;A simple jekyll plugin to generate image thumbnails using &lt;a href=&quot;https://jcupitt.github.io/libvips/&quot;&gt;libvips&lt;/a&gt;. You feed it the image path and a width or height value, and it scales the image down, and outputs an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;img /&amp;gt;&lt;/code&gt; tag wrapped in an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; pointing to the original image file.&lt;/p&gt;
+      <id>https://cleverna.me/2018/10/02/jekyll-thumb</id>
+      <content type="html" xml:base="https://cleverna.me/2018/10/02/jekyll-thumb/">&lt;p&gt;A simple jekyll plugin to generate image thumbnails using &lt;a href=&quot;https://jcupitt.github.io/libvips/&quot;&gt;libvips&lt;/a&gt;. You feed it the image path and a width or height value, and it scales the image down, and outputs an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;img /&amp;gt;&lt;/code&gt; tag wrapped in an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; pointing to the original image file.&lt;/p&gt;
 
 &lt;p&gt;Simple stuff, but all the existing plugins were tied to imagemagick, which I hope to leave behind.&lt;/p&gt;
 
@@ -743,12 +805,12 @@ $ podcast_feed_gen &amp;gt; index.rss
       <title type="html">FML</title>
       
       
-      <link href="http://0.0.0.0:3000/2018/05/10/FML/" rel="alternate" type="text/html" title="FML" />
+      <link href="https://cleverna.me/2018/05/10/FML/" rel="alternate" type="text/html" title="FML" />
       
       <published>2018-05-10T15:16:00+01:00</published>
       <updated>2018-05-10T15:16:00+01:00</updated>
-      <id>http://0.0.0.0:3000/2018/05/10/FML</id>
-      <content type="html" xml:base="http://0.0.0.0:3000/2018/05/10/FML/">&lt;p class=&quot;center&quot;&gt;&lt;a href=&quot;http://fml.cleverna.me&quot;&gt;&lt;img src=&quot;/assets/img/fml_logo.jpg&quot; alt=&quot;FML&quot; title=&quot;FML aka Fix My Life&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <id>https://cleverna.me/2018/05/10/FML</id>
+      <content type="html" xml:base="https://cleverna.me/2018/05/10/FML/">&lt;p class=&quot;center&quot;&gt;&lt;a href=&quot;http://fml.cleverna.me&quot;&gt;&lt;img src=&quot;/assets/img/fml_logo.jpg&quot; alt=&quot;FML&quot; title=&quot;FML aka Fix My Life&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p class=&quot;center nomargin center nomargin&quot;&gt;&lt;sub&gt;&lt;sup&gt;&lt;em&gt;aka&lt;/em&gt;&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
 &lt;h4 class=&quot;center nomargin&quot; id=&quot;fix-my-life&quot;&gt;&lt;a href=&quot;http://fml.cleverna.me&quot;&gt;Fix My Life&lt;/a&gt;&lt;/h4&gt;
@@ -830,12 +892,12 @@ The amount of points needed to fill the meter is specified in terms on the &lt;c
       <title type="html">Introducing TinyCI</title>
       
       
-      <link href="http://0.0.0.0:3000/2018/05/09/Introducing-TinyCI/" rel="alternate" type="text/html" title="Introducing TinyCI" />
+      <link href="https://cleverna.me/2018/05/09/Introducing-TinyCI/" rel="alternate" type="text/html" title="Introducing TinyCI" />
       
       <published>2018-05-09T11:39:55+01:00</published>
       <updated>2018-05-09T11:39:55+01:00</updated>
-      <id>http://0.0.0.0:3000/2018/05/09/Introducing-TinyCI</id>
-      <content type="html" xml:base="http://0.0.0.0:3000/2018/05/09/Introducing-TinyCI/">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; _____ _               _____  _____
+      <id>https://cleverna.me/2018/05/09/Introducing-TinyCI</id>
+      <content type="html" xml:base="https://cleverna.me/2018/05/09/Introducing-TinyCI/">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; _____ _               _____  _____
 /__   (_)_ __  _   _  / ___/ /_  _/
    | || | '_ \| | | |/ /     / /
    | || | | | | |_| / /___/\/ /_  
