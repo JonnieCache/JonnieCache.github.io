@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  <title>
+    
+      How to permanently remove the Qualcomm aptX HD notifcation from your android phone - Clever Name
+    
+  </title>
+  <meta name="description" content="adb shell cmd package uninstall -k --user 0 com.qualcomm.qtil.aptxals">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://0.0.0.0:3000/2020/12/04/how-to-permanently-remove-the-qualcomm-aptx-hd-notifcation-from-your-android-phone/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="Clever Name" href="http://0.0.0.0:3000/feed.xml">
+
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="adb shell cmd package uninstall -k --user 0 com.qualcomm.qtil.aptxals">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Clever Name</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/archives">Archives</a>
+      
+        
+        <a class="page-link" href="/code">Code</a>
+      
+        
+        <a class="page-link" href="http://unmode.com">Music</a>
+      
+        
+        <a class="page-link" href="mailto:jonnie@cleverna.me">Contact</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">How to permanently remove the Qualcomm aptX HD notifcation from your android phone</h1>
+    
+    <p class="post-meta"><time datetime="2020-12-04T16:37:59+00:00" itemprop="datePublished">Dec 4, 2020</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><img src="/assets/img/aptx_notification.png" alt="This bastard" title="Qualcomm aptX HD notification" /></p>
+
+<p class="center"><code class="language-plaintext highlighter-rouge">adb shell cmd package uninstall -k --user 0 com.qualcomm.qtil.aptxals</code></p>
+
+<!-- more -->
+
+<p>You’ve probably had the same experience: you get your new wireless headphones in the post after hours spent weighing your options, you excitedly hold down the button to pair it with your phone but what’s this?</p>
+
+<p>An unhideable spam notification from a previously hidden system app? And all the notification permission controls are greyed out? And you can’t uninstall the app? And the notification never goes away on it’s own? Oh and what’s that? The functionality that the notification exists to “advertise” (to a person who has already paid for it) is already enabled by default? And if you press on the notification, it crashes the bluetooth audio stack completely, and doesn’t even disappear then?</p>
+
+<p>One thing is to be sure: the people responsible for this nightmarish prison of the spirit we are all trapped in <em>must</em> be brought to justice. In the meantime though, let’s at least get rid of that fucking notification.</p>
+
+<p>Step 1. Install adb. Look elsewhere if you don’t know how to do that.</p>
+
+<p>Step 2: Run this in your command prompt:</p>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell cmd package uninstall -k --user 0 com.qualcomm.qtil.aptxals</code></p>
+
+<p>You can also remove this other package, I don’t know what it does but at this point anything under the qualcomm namespace can do one:</p>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell cmd package uninstall -k --user 0 com.qualcomm.qtil.aptxalsOverlay</code></p>
+
+<p>This leaves the actual aptX functionality working just fine as far as I can tell. I have noticed no difference in any functionality or behavior as a result of doing this, but if you want to put it back how it was before you can reinstall the packages with these commands:</p>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell cmd package install-existing com.qualcomm.qtil.aptxals</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">adb shell cmd package install-existing com.qualcomm.qtil.aptxalsOverlay</code></p>
+
+<p>The uninstall command never actually deletes them because they’re baked into the system image or whatever, so they can be reenabled with no issues.</p>
+
+<p>If you’re confused by this, <a href="https://www.xda-developers.com/uninstall-carrier-oem-bloatware-without-root-access/">here’s a page that explains the package removal process in much more detail</a>.</p>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://0.0.0.0:3000/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
